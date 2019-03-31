@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1361</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>110</y>
+      <width>231</width>
+      <height>89</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QWidget" name="">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Return</string>
+        </property>
+        <property name="buddy">
+         <cstring>doubleSpinBox_returns_min</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Markdown</string>
+        </property>
+        <property name="buddy">
+         <cstring>doubleSpinBox_maxdrawdown_min</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="Sharp">
+        <property name="text">
+         <string>&amp;Sharp</string>
+        </property>
+        <property name="buddy">
+         <cstring>doubleSpinBox_shape_min</cstring>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Min</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_returns_min"/>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_maxdrawdown_min"/>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_shape_min"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Max</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_returns_max"/>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_maxdrawdown_max"/>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_shape_max"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>start</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1361</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
